@@ -1,0 +1,40 @@
+$primary-color: #790C01; // #d40577, #7a0000, #adab0f
+$primary-color-darken5: #020000;
+$primary-color-darken10: #9f1515;
+$primary-color-darken15: #810c03;
+$primary-color-darken15-opacity: #3e0300;
+$primary-color-lighten5: #020000;
+$primary-color-lighten10: #ff0000;
+$primary-color-lighten15: #ff1100;
+$primary-color-lighten15-opacity: #7E0E00;
+
+$accent-color: #ff0000;
+$accent-color-darken5: #f91100;
+$accent-color-darken10: #fb221d5c;
+$accent-color-darken15: #ffffff;
+$accent-color-darken15-opacity: #ffffff;
+$accent-color-lighten5: #ff1100;
+$accent-color-lighten10: #5e0303;
+$accent-color-lighten15: #ff1100;
+$accent-color-lighten15-opacity: #ffffff;
+
+:export {
+  primaryColor: $primary-color;
+  primaryColorDarken5: $primary-color-darken5;
+  primaryColorDarken10: $primary-color-darken10;
+  primaryColorDarken15: $primary-color-darken15;
+  primaryColorDarken15Opacity: $primary-color-darken15-opacity;
+  primaryColorLighten5: $primary-color-lighten5;
+  primaryColorLighten10: $primary-color-lighten10;
+  primaryColorLighten15: $primary-color-lighten15;
+  primaryColorLighten15Opacity: $primary-color-lighten15-opacity;
+  accentColor: $accent-color;
+  accentColorDarken5: $accent-color-darken5;
+  accentColorDarken10: $accent-color-darken10;
+  accentColorDarken15: $accent-color-darken15;
+  accentColorDarken15Opacity: $accent-color-darken15-opacity;
+  accentColorLighten5: $accent-color-lighten5;
+  accentColorLighten10: $accent-color-lighten10;
+  accentColorLighten15: $accent-color-lighten15;
+  accentColorLighten15Opacity: $accent-color-lighten15-opacity;
+}

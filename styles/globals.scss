@@ -1,0 +1,74 @@
+@import "~/styles/variables.module.scss";
+
+html,
+body {
+--primary-color: #790C01; // #d40577, #7a0000, #adab0f
+--primary-color-darken5: #020000;
+--primary-color-darken10: #9f1515;
+--primary-color-darken15: #810c03;
+--primary-color-darken15-opacity: #3e0300;
+--primary-color-lighten5: #020000;
+--primary-color-lighten10: #ff0000;
+--primary-color-lighten15: #ff1100;
+--primary-color-lighten15-opacity: #7E0E00;
+
+--accent-color: #ff0000;
+--accent-color-darken5: #f91100;
+--accent-color-darken10: #fb221d5c;
+--accent-color-darken15: #ffffff;
+--accent-color-darken15-opacity: #ffffff;
+--accent-color-lighten5: #ff1100;
+--accent-color-lighten10: #5e0303;
+--accent-color-lighten15: #ff1100;
+--accent-color-lighten15-opacity: #ffffff;
+
+  --base-font: 'Marcellus', serif;
+  --base-letter-spacing: normal;
+  // --accent-font: 'Press Start 2P', cursive;
+  --accent-font: 'El Messiri', sans-serif;
+  --accent-letter-spacing: 0px;
+
+
+  padding: 0;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--primary-color);
+  color: #fff;
+  margin: 0;
+  color-scheme: dark;
+  scroll-behavior: smooth;
+  max-width: 100%;
+}
+
+body, html, .base-text {
+  font-family: var(--base-font);
+  letter-spacing: var(--base-letter-spacing);
+}
+
+h1, h2 {
+  font-family: var(--accent-font);
+  letter-spacing: var(--accent-letter-spacing);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  text-shadow: 2px 2px 1px var(--accent-color-lighten10);
+  font-weight: bolder;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--accent-color-lighten10);
+}
+
+::-webkit-scrollbar {
+  background: var(--primary-color-darken5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color-darken10);
+}
